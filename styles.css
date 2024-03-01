@@ -1,0 +1,92 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/uttrakhand.jpeg");
+    background-size: cover;
+    justify-content: center;
+    height: 400px;
+}
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1FAEE;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    background-color: #457B9D;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+h2 {
+     background-color: #415a77;
+     color: white;
+}
+.activity {
+    display: flex;
+    justify-content: flex-start;
+}
+
+body {
+    font-family: "Spinnaker", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    text-align: start;
+}
+
+.img{
+    border-radius: 50%;
+}
+
+.img-profile{
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+.img:hover {
+    height: 200px;
+    width: 200px;
+}
+
+.act {
+    margin: 0 5px;
+}
+
+img {
+    width: 120px;
+}
+
+.intro {
+    display: flex;
+}
+.card {
+    width: 400px;
+    margin: 50px auto 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
